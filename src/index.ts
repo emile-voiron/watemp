@@ -4,4 +4,7 @@
 // The "WA" global object is available from anywhere.
 
 console.log('Script started successfully');
-WA.openCoWebSite('https://workadventu.re');
+
+document.addEventListener("keydown", function(e) {
+    console.log("down", e);
+})
